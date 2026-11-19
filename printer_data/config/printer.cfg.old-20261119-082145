@@ -1,0 +1,20 @@
+# Happy Hare MMU includes (should be near top of file)
+[include mmu/base/*.cfg]
+[include mmu/macros/*.cfg]
+[include mainsail.cfg]
+[include secondary_cfgs/printer_main.cfg]
+[include macros/klipper_backup.cfg]
+[include secondary_cfgs/shell_command.cfg]
+#[include autotune_tmc.cfg]
+
+# Happy Hare Client macros (should be after last include or other PAUSE/CANCEL macros)
+[include mmu/optional/client_macros.cfg]
+
+# host MCU service is preinstalled and ready to use with:
+[mcu CB1]
+serial: /tmp/klipper_host_mcu
+
+[temperature_sensor BTT_CB1]
+sensor_type: temperature_host
+min_temp: 0
+max_temp: 100
