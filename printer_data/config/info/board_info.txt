@@ -1,0 +1,4 @@
+Main Printer Board:				/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0								1a86:7523		/dev/ttyUSB0		Creality 4.2.7
+MMU Board:						/dev/serial/by-id/usb-Klipper_stm32f405xx_5A003D000250325436313720-if00			1d50:614e		/dev/ttyACM0		TH3D EzBoard V2
+MMU Supplimentary Board:		/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0								1a86:7523		/dev/ttyUSB1		Creality 1.1.5 Silent Board
+
